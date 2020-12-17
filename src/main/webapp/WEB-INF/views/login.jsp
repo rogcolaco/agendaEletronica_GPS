@@ -4,15 +4,30 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	crossorigin="anonymous">
 <title>Bem vindo a sua agenda eletrônica</title>
 </head>
-<body>
+<body class="container" style="margin-top: 50px;">
 	<h1>Acesse sua agenda eletrônica</h1>
-	<form method=post action=checkedLogin>
-		<p> Login:<input type=text name=login /> </p> 
-		<p> Senha:<input type=password name=password /> </p> 
-		<p> <input type=submit value=Logar> </p> 
-		<p><a href=registerUser>Cadastre-se</a></p>
+	<form method=post action=checkedLogin class="col-sm-4">
+		<p class="form-label">
+			Login:<input type=text name=login class="form-control"/>
+		</p>
+		<p class="form-label">
+			Senha:<input type=password name=password class="form-control"/>
+		</p>
+		<p >
+			<input type=submit value=Logar class="btn btn-primary">
+		</p>
+		<p>
+			<a href=registerUser class="btn btn-success">Cadastre-se</a>
+		</p>
 	</form>
 </body>
 </html>
