@@ -5,15 +5,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	crossorigin="anonymous">
 <title>Produtos</title>
 </head>
-<body>
-	<p> Seja bem vindo, ${user.login} | <a href=logout>Sair</a>	</p>
+<body class="container" style="margin-top: 50px;">
+	<p> Seja bem vindo, ${user.login} | <a href=logout class="btn btn-danger" style="padding: auto 30px;">Sair</a>	</p>
 	<h1>Menu Principal</h1>
-	<p> <a href=myContacts>Meus Contatos</a> </p>
-	<p> <a href=myCommitments>Meus Compromissos</a> </p>
+	<p> <a href=myContacts class="col-sm-3 btn btn-primary" style="margin: 20px 0px;">Meus Contatos</a> </p>
+	<p> <a href=myCommitments class="col-sm-3 btn btn-primary" style="margin: 20px 0px;">Meus Compromissos</a> </p>
 	<hr>
-	<p> <a href=newContact>Adicionar Novo Contato</a> </p>
-	<p> <a href=newCommitment>Adicionar Novo Compromisso</a> </p>
+	<p> <a href=newContact class="col-sm-3 btn btn-primary" style="margin: 20px 0px;">Adicionar Novo Contato</a> </p>
+	<p> <a href=newCommitment class="col-sm-3 btn btn-primary" style="margin: 20px 0px;">Adicionar Novo Compromisso</a> </p>
 </body>
 </html>
