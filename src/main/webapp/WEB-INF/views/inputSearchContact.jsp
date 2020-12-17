@@ -13,12 +13,12 @@
 	crossorigin="anonymous">
 <title>Buscar Contato</title>
 </head>
-<body>
-	<p>Bem vindo: ${user.login} | <a href=mainMenu>Voltar</a>  |  <a href=logout>Sair</a> <p>
+<body class="container" style="margin-top: 50px;">
+	<p>Bem vindo: ${user.login} | <a href=mainMenu class="btn btn-secondary" style="padding: auto 30px;">Voltar</a> <a href=logout class="btn btn-danger" style="padding: auto 30px;">Sair</a> <p>
 	<h1>Buscar Contato</h1>
-	<form method=post action=myContactsFiltred>
-		<p> Nome: <input type=text name=name /> </p> 
-		<p> <input type=submit value="Buscar"> </p> 
+	<form method=post action=myContactsFiltred class="col-sm-6">
+		<p> Nome: <input type=text name=name style="width: 100%;" /> </p> 
+		<p> <input type=submit value="Buscar" class="btn btn-primary" style="padding: auto 30px;"> </p> 
 	</form>
 
 </body>
