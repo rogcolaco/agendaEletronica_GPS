@@ -15,7 +15,7 @@
 </head>
 <body class="container" style="margin-top: 50px;">
 	<h1>Acesse sua agenda eletrônica</h1>
-	<form method=post action=checkedLogin class="loginForm col-sm-4">
+	<form method=post action=checkedLogin class="col-sm-4">
 		<p class="form-label">
 			Login:<input type=text name=login class="form-control"/>
 		</p>
