@@ -15,7 +15,7 @@
 <title>Meus Contatos</title>
 </head>
 <body class="container" style="margin-top: 50px;">
-	<p>Bem vindo: ${user.login} | <a href=mainMenu class="btn btn-secondary" style="padding: auto 30px;">Voltar</a>  |  <a href=logout class="btn btn-danger" style="padding: auto 30px;">Sair</a> <p>
+	<p>Bem vindo: ${user.login} | <a href=mainMenu class="btn btn-secondary" style="padding: auto 30px;">Voltar</a>  <a href=logout class="btn btn-danger" style="padding: auto 30px;">Sair</a> <p>
 	<h1>Meus Contatos</h1>
 	<table class="table table-striped">
 		<tr>
