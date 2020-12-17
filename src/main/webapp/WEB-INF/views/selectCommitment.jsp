@@ -21,7 +21,7 @@
 
 	<c var="commitments" items="${commitments}">
 		<form method=post action=updateCommitment class="col-sm-6">
-			<p>	ID: <input type=text name=id value="${commitments.id}" style="width: 100%;" readonly/>	</p>
+			<p>	ID: <input type=text name=id value="${commitments.id}" style="width: 100%;" readonly />	</p>
 			<p>	Local: <input type=text name=local value="${commitments.local}" style="width: 100%;" />	</p>
 			<p>	Data: <input type=date name=date value="${commitments.date}" style="width: 100%;" /> </p>
 			<p> Contato: <input type=text name=contact value="${commitments.contact}" style="width: 100%;" /> </p>
